@@ -15,18 +15,27 @@ import { ThemedText } from './themed-text';
 import { ThemedView } from './themed-view';
 
 import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
+import { useI18n } from '@/i18n';
 
 export default function AppTabs() {
+  const { t } = useI18n();
+
   return (
     <Tabs>
       <TabSlot style={{ height: '100%' }} />
       <TabList asChild>
         <CustomTabList>
-          <TabTrigger name="home" href="/" asChild>
-            <TabButton>Home</TabButton>
+          <TabTrigger name="index" href="/" asChild>
+            <TabButton>{t('tabs.today')}</TabButton>
+          </TabTrigger>
+          <TabTrigger name="workouts" href="/workouts" asChild>
+            <TabButton>{t('tabs.workouts')}</TabButton>
+          </TabTrigger>
+          <TabTrigger name="progress" href="/progress" asChild>
+            <TabButton>{t('tabs.progress')}</TabButton>
           </TabTrigger>
           <TabTrigger name="explore" href="/explore" asChild>
-            <TabButton>Explore</TabButton>
+            <TabButton>{t('tabs.explore')}</TabButton>
           </TabTrigger>
         </CustomTabList>
       </TabList>
@@ -51,19 +60,20 @@ export function TabButton({ children, isFocused, ...props }: TabTriggerSlotProps
 export function CustomTabList(props: TabListProps) {
   const scheme = useColorScheme();
   const colors = Colors[scheme === 'unspecified' ? 'light' : scheme];
+  const { t } = useI18n();
 
   return (
     <View {...props} style={styles.tabListContainer}>
       <ThemedView type="backgroundElement" style={styles.innerContainer}>
-        <ThemedText type="smallBold" style={styles.brandText}>
-          Expo Starter
-        </ThemedText>
+          <ThemedText type="smallBold" style={styles.brandText}>
+            PRLY
+          </ThemedText>
 
         {props.children}
 
-        <ExternalLink href="https://docs.expo.dev" asChild>
+        <ExternalLink href="https://supabase.com/docs" asChild>
           <Pressable style={styles.externalPressable}>
-            <ThemedText type="link">Doc</ThemedText>
+            <ThemedText type="link">{t('tabs.supabase')}</ThemedText>
             <SymbolView
               tintColor={colors.text}
               name={{ ios: 'arrow.up.right.square', web: 'link' }}
