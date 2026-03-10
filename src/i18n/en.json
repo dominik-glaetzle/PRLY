@@ -1,0 +1,222 @@
+{
+  "common": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "register": "Register",
+    "emailPlaceholder": "you@example.com",
+    "hiddenPassword": "••••••••",
+    "minutesShort": "min",
+    "kilogramsShort": "kg",
+    "somethingWentWrong": "Something went wrong."
+  },
+  "tabs": {
+    "today": "Today",
+    "workouts": "Workouts",
+    "progress": "Progress",
+    "explore": "Explore",
+    "supabase": "Supabase"
+  },
+  "dashboard": {
+    "newWorkout": "Start new workout",
+    "noWorkoutRecorded": "No workouts recorded yet.",
+    "noEntry": "No entry",
+    "weekdayLabels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "defaultAthleteName": "Athlete",
+    "workoutMeta": "{{date}} · {{minutes}} min",
+    "sectionDate": "{{date}}",
+    "greeting": "Hi, {{name}}.",
+    "allWorkouts": "All workouts",
+    "todayEyebrow": "TODAY",
+    "heroTitle": "Build momentum.",
+    "todayLogged_one": "{{count}} workout already logged today.",
+    "todayLogged_other": "{{count}} workouts already logged today.",
+    "todayNone": "No workout logged today yet. Start one session and keep the streak alive.",
+    "streakDay_one": "{{count}} day",
+    "streakDay_other": "{{count}} days",
+    "streakLabel": "streak",
+    "thisWeek": "This week",
+    "sessions": "sessions",
+    "minutes": "Minutes",
+    "total": "total",
+    "openLastWorkout": "Open last workout",
+    "failedToLoad": "Failed to load dashboard",
+    "avgSession": "Avg. session",
+    "today": "Today",
+    "logged": "logged",
+    "currentStreak": "Current streak",
+    "days": "days",
+    "weeklyRhythm": "Weekly rhythm",
+    "weeklyActivity": "Monday to Sunday activity",
+    "weeklyGoal": "{{count}}/4 weekly goal",
+    "recentWorkouts": "Recent workouts",
+    "recentSubtitle": "Open a session and add exercises directly.",
+    "seeAll": "See all",
+    "noWorkoutsYet": "No workouts yet",
+    "createFirstWorkoutDesc": "Create your first workout here. You can then attach exercises on the detail page.",
+    "createFirstWorkout": "Create first workout",
+    "lastSession": "Last session",
+    "openDetails": "Open details",
+    "sessionMeta": "{{minutes}} min session"
+  },
+  "workouts": {
+    "title": "Workouts",
+    "subtitle": "All sessions at a glance.",
+    "empty": "No workouts yet. Start your first training session.",
+    "newWorkout": "New workout",
+    "viewExercises": "View exercises",
+    "workoutMeta": "{{date}} · {{minutes}} min"
+  },
+  "progress": {
+    "title": "Progress",
+    "subtitle": "Your development over the last few weeks.",
+    "heroEyebrow": "{{count}}-WEEK SNAPSHOT",
+    "heroTitle": "Your training trend at a glance.",
+    "heroSubtitle": "See how consistent you train and how sessions and volume evolve.",
+    "activeWeeks": "Active weeks",
+    "sessionsLogged": "Sessions logged",
+    "volumeTracked": "Volume tracked",
+    "thisWeek": "This week",
+    "lastWeek": "Last week",
+    "bestWeek": "Best week",
+    "workoutsPerWeek": "Workouts per week",
+    "weeklySessionsSubtitle": "Sessions across the last {{count}} weeks.",
+    "volumeKg": "Training volume (kg)",
+    "weeklyVolumeSubtitle": "Weekly volume based on your logged exercises.",
+    "averageDuration": "Avg. duration per workout",
+    "durationMeta": "{{minutes}} min",
+    "weekChangeLabel": "Week over week",
+    "weekChange": "{{count}} vs last week",
+    "consistencyTitle": "Consistency",
+    "consistencyBody": "{{count}} of {{total}} weeks included activity.",
+    "emptyTitle": "No progress data yet",
+    "emptyBody": "Start your first workout and log exercises so sessions, duration, and volume show up here.",
+    "basedOnSessions_one": "Based on {{count}} session.",
+    "basedOnSessions_other": "Based on {{count}} sessions."
+  },
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Settings, account, and tips.",
+    "profile": "Profile",
+    "yourName": "Your name",
+    "saveName": "Save name",
+    "nameRequired": "Please enter your name.",
+    "nameSaved": "Name saved.",
+    "changeEmail": "Change email",
+    "emailRequired": "Please enter an email.",
+    "emailUpdated": "Please confirm the email in your inbox.",
+    "updateEmail": "Update email",
+    "changePassword": "Change password",
+    "newPassword": "New password",
+    "passwordTooShort": "Password must be at least 8 characters long.",
+    "passwordUpdated": "Password updated.",
+    "updatePassword": "Update password",
+    "appColor": "App color",
+    "chooseAccent": "Choose your accent color for buttons and cards.",
+    "language": "Language",
+    "chooseLanguage": "Choose the app language.",
+    "tipTitle": "Tip",
+    "tipBody": "Add exercises to track training volume and progress.",
+    "signOut": "Sign out",
+    "languageOptions": {
+      "de": "Deutsch",
+      "en": "English"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to track your workouts.",
+      "noAccount": "No account yet?"
+    },
+    "register": {
+      "title": "New account",
+      "subtitle": "Create your account and start your training journal.",
+      "submit": "Create account",
+      "success": "Account created. Please confirm your email if needed.",
+      "alreadyRegistered": "Already registered?",
+      "toLogin": "Go to login"
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to PRLY",
+      "subtitle": "Your smart training companion. Let's get started in 60 seconds.",
+      "highlights": [
+        "Create your personal training profile",
+        "Track progress and stay consistent",
+        "Find workouts that match your goals"
+      ],
+      "cta": "Let's go"
+    },
+    "goals": {
+      "title": "Your goals",
+      "subtitle": "Tell us how often you want to train and what matters most to you.",
+      "frequencyQuestion": "How often do you want to train?",
+      "goalQuestion": "What is your primary goal?",
+      "back": "Back",
+      "continue": "Continue to login",
+      "saveError": "Could not save your selection. Please try again.",
+      "frequencyOptions": {
+        "1-2": {
+          "label": "1-2x per week",
+          "description": "Start easy"
+        },
+        "2-3": {
+          "label": "2-3x per week",
+          "description": "Build consistency"
+        },
+        "4-5": {
+          "label": "4-5x per week",
+          "description": "Train with structure"
+        },
+        "6+": {
+          "label": "6x or more",
+          "description": "High performance"
+        }
+      },
+      "goalOptions": {
+        "lose-fat": "Lose fat",
+        "build-muscle": "Build muscle",
+        "get-stronger": "Get stronger",
+        "improve-endurance": "Improve endurance",
+        "stay-consistent": "Stay consistent"
+      }
+    }
+  },
+  "workout": {
+    "defaultName": "Workout {{date}}",
+    "trainingVolume": "Training volume",
+    "exercises": "Exercises",
+    "entries_one": "{{count}} entry",
+    "entries_other": "{{count}} entries",
+    "exerciseSummary": "{{sets}} sets · {{reps}} reps · {{weight}} kg",
+    "noExercises": "No exercises yet. Add one below.",
+    "newExercise": "New exercise",
+    "addExercise": "Add exercise",
+    "deleteWorkout": "Delete workout",
+    "notFound": "Workout not found.",
+    "placeholders": {
+      "exerciseName": "e.g. Bench Press",
+      "note": "Note (optional)",
+      "sets": "Sets (optional)",
+      "reps": "Reps",
+      "weight": "kg"
+    },
+    "validation": {
+      "reps": "Please enter valid values for reps.",
+      "sets": "Please enter valid values for sets.",
+      "weight": "Please enter a valid value for weight."
+    },
+    "deleteAlert": {
+      "title": "Delete workout?",
+      "message": "The workout will be removed permanently.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  },
+  "hintRow": {
+    "title": "Try editing",
+    "hint": "app/index.tsx"
+  }
+}

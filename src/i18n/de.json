@@ -1,0 +1,222 @@
+{
+  "common": {
+    "email": "Email",
+    "password": "Passwort",
+    "login": "Login",
+    "register": "Registrieren",
+    "emailPlaceholder": "you@example.com",
+    "hiddenPassword": "••••••••",
+    "minutesShort": "min",
+    "kilogramsShort": "kg",
+    "somethingWentWrong": "Etwas ist schiefgelaufen."
+  },
+  "tabs": {
+    "today": "Heute",
+    "workouts": "Workouts",
+    "progress": "Progress",
+    "explore": "Explore",
+    "supabase": "Supabase"
+  },
+  "dashboard": {
+    "newWorkout": "Neues Workout starten",
+    "noWorkoutRecorded": "Noch keine Workouts erfasst.",
+    "noEntry": "Kein Eintrag",
+    "weekdayLabels": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+    "defaultAthleteName": "Athlet",
+    "workoutMeta": "{{date}} · {{minutes}} min",
+    "sectionDate": "{{date}}",
+    "greeting": "Hi, {{name}}.",
+    "allWorkouts": "Alle Workouts",
+    "todayEyebrow": "HEUTE",
+    "heroTitle": "Baue Momentum auf.",
+    "todayLogged_one": "{{count}} Workout heute bereits erfasst.",
+    "todayLogged_other": "{{count}} Workouts heute bereits erfasst.",
+    "todayNone": "Heute ist noch kein Workout erfasst. Starte eine Session und halte deine Serie am Leben.",
+    "streakDay_one": "{{count}} Tag",
+    "streakDay_other": "{{count}} Tage",
+    "streakLabel": "Serie",
+    "thisWeek": "Diese Woche",
+    "sessions": "Sessions",
+    "minutes": "Minuten",
+    "total": "gesamt",
+    "openLastWorkout": "Letztes Workout öffnen",
+    "failedToLoad": "Dashboard konnte nicht geladen werden",
+    "avgSession": "Ø Session",
+    "today": "Heute",
+    "logged": "erfasst",
+    "currentStreak": "Aktuelle Serie",
+    "days": "Tage",
+    "weeklyRhythm": "Wochenrhythmus",
+    "weeklyActivity": "Aktivität von Montag bis Sonntag",
+    "weeklyGoal": "{{count}}/4 Wochenziel",
+    "recentWorkouts": "Letzte Workouts",
+    "recentSubtitle": "Öffne eine Session und ergänze direkt Übungen.",
+    "seeAll": "Alle ansehen",
+    "noWorkoutsYet": "Noch keine Workouts",
+    "createFirstWorkoutDesc": "Erstelle hier dein erstes Workout. Danach kannst du im Detail Übungen hinzufügen.",
+    "createFirstWorkout": "Erstes Workout erstellen",
+    "lastSession": "Letzte Session",
+    "openDetails": "Details öffnen",
+    "sessionMeta": "{{minutes}} min Session"
+  },
+  "workouts": {
+    "title": "Workouts",
+    "subtitle": "Alle Sessions im Überblick.",
+    "empty": "Noch keine Workouts. Starte dein erstes Training.",
+    "newWorkout": "Neues Workout",
+    "viewExercises": "Übungen ansehen",
+    "workoutMeta": "{{date}} · {{minutes}} min"
+  },
+  "progress": {
+    "title": "Progress",
+    "subtitle": "Deine Entwicklung der letzten Wochen.",
+    "heroEyebrow": "{{count}}-WOCHEN SNAPSHOT",
+    "heroTitle": "Deine Entwicklung auf einen Blick.",
+    "heroSubtitle": "Sieh, wie konstant du trainierst und wie sich Sessions und Volumen entwickeln.",
+    "activeWeeks": "Aktive Wochen",
+    "sessionsLogged": "Sessions erfasst",
+    "volumeTracked": "Volumen getrackt",
+    "thisWeek": "Diese Woche",
+    "lastWeek": "Letzte Woche",
+    "bestWeek": "Beste Woche",
+    "workoutsPerWeek": "Workouts pro Woche",
+    "weeklySessionsSubtitle": "Sessions über die letzten {{count}} Wochen.",
+    "volumeKg": "Trainingsvolumen (kg)",
+    "weeklyVolumeSubtitle": "Volumen pro Woche auf Basis deiner Übungen.",
+    "averageDuration": "Ø Dauer pro Workout",
+    "durationMeta": "{{minutes}} min",
+    "weekChangeLabel": "Wochenvergleich",
+    "weekChange": "{{count}} vs. letzte Woche",
+    "consistencyTitle": "Konstanz",
+    "consistencyBody": "{{count}} von {{total}} Wochen hatten Aktivität.",
+    "emptyTitle": "Noch keine Progress-Daten",
+    "emptyBody": "Starte dein erstes Workout und ergänze Übungen, damit hier Sessions, Dauer und Volumen sichtbar werden.",
+    "basedOnSessions_one": "Basierend auf {{count}} Session.",
+    "basedOnSessions_other": "Basierend auf {{count}} Sessions."
+  },
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Einstellungen, Account und Hinweise.",
+    "profile": "Profil",
+    "yourName": "Dein Name",
+    "saveName": "Name speichern",
+    "nameRequired": "Bitte trage deinen Namen ein.",
+    "nameSaved": "Name gespeichert.",
+    "changeEmail": "Email ändern",
+    "emailRequired": "Bitte trage eine Email ein.",
+    "emailUpdated": "Bitte bestätige die Email in deinem Postfach.",
+    "updateEmail": "Email aktualisieren",
+    "changePassword": "Passwort ändern",
+    "newPassword": "Neues Passwort",
+    "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein.",
+    "passwordUpdated": "Passwort aktualisiert.",
+    "updatePassword": "Passwort aktualisieren",
+    "appColor": "App Farbe",
+    "chooseAccent": "Wähle deine Akzentfarbe für Buttons und Cards.",
+    "language": "Sprache",
+    "chooseLanguage": "Wähle die Sprache der App.",
+    "tipTitle": "Tipp",
+    "tipBody": "Füge Übungen hinzu, um Trainingsvolumen und Fortschritt zu tracken.",
+    "signOut": "Abmelden",
+    "languageOptions": {
+      "de": "Deutsch",
+      "en": "English"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melde dich an, um deine Workouts zu tracken.",
+      "noAccount": "Noch kein Account?"
+    },
+    "register": {
+      "title": "Neues Konto",
+      "subtitle": "Erstelle deinen Account und starte dein Trainingstagebuch.",
+      "submit": "Account erstellen",
+      "success": "Account erstellt. Bitte bestätige deine Email, falls nötig.",
+      "alreadyRegistered": "Bereits registriert?",
+      "toLogin": "Zum Login"
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Willkommen bei PRLY",
+      "subtitle": "Dein smarter Trainingsbegleiter. Lass uns in 60 Sekunden starten.",
+      "highlights": [
+        "Erstelle dein persönliches Trainingsprofil",
+        "Tracke Fortschritte und bleib konstant",
+        "Finde Workouts, die zu deinen Zielen passen"
+      ],
+      "cta": "Los geht's"
+    },
+    "goals": {
+      "title": "Deine Ziele",
+      "subtitle": "Sag uns, wie oft du trainieren willst und was dir am wichtigsten ist.",
+      "frequencyQuestion": "Wie oft möchtest du trainieren?",
+      "goalQuestion": "Was ist dein primäres Ziel?",
+      "back": "Zurück",
+      "continue": "Weiter zum Login",
+      "saveError": "Konnte deine Auswahl nicht speichern. Bitte versuche es erneut.",
+      "frequencyOptions": {
+        "1-2": {
+          "label": "1-2x pro Woche",
+          "description": "Locker starten"
+        },
+        "2-3": {
+          "label": "2-3x pro Woche",
+          "description": "Konstant aufbauen"
+        },
+        "4-5": {
+          "label": "4-5x pro Woche",
+          "description": "Strukturiert trainieren"
+        },
+        "6+": {
+          "label": "6x oder öfter",
+          "description": "High-Performance"
+        }
+      },
+      "goalOptions": {
+        "lose-fat": "Fett verlieren",
+        "build-muscle": "Muskeln aufbauen",
+        "get-stronger": "Kraft steigern",
+        "improve-endurance": "Ausdauer verbessern",
+        "stay-consistent": "Konstanz finden"
+      }
+    }
+  },
+  "workout": {
+    "defaultName": "Workout {{date}}",
+    "trainingVolume": "Trainingsvolumen",
+    "exercises": "Übungen",
+    "entries_one": "{{count}} Eintrag",
+    "entries_other": "{{count}} Einträge",
+    "exerciseSummary": "{{sets}} Sets · {{reps}} Reps · {{weight}} kg",
+    "noExercises": "Noch keine Übungen. Füge unten eine hinzu.",
+    "newExercise": "Neue Übung",
+    "addExercise": "Übung hinzufügen",
+    "deleteWorkout": "Workout löschen",
+    "notFound": "Workout nicht gefunden.",
+    "placeholders": {
+      "exerciseName": "z.B. Bench Press",
+      "note": "Hinweis (optional)",
+      "sets": "Sets (optional)",
+      "reps": "Reps",
+      "weight": "kg"
+    },
+    "validation": {
+      "reps": "Bitte gültige Werte für Reps eingeben.",
+      "sets": "Bitte gültige Werte für Sets eingeben.",
+      "weight": "Bitte gültige Werte für Gewicht eingeben."
+    },
+    "deleteAlert": {
+      "title": "Workout löschen?",
+      "message": "Das Workout wird dauerhaft entfernt.",
+      "cancel": "Abbrechen",
+      "confirm": "Löschen"
+    }
+  },
+  "hintRow": {
+    "title": "Bearbeite",
+    "hint": "app/index.tsx"
+  }
+}
