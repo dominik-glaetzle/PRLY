@@ -8,11 +8,11 @@
     "scheme": "prly",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/ios-light.png"
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "icon": "./assets/images/ios-light.png",
+      "bundleIdentifier": "com.smxkz.PRLY",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "plugins": [
       "expo-router",
@@ -30,6 +30,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "38cca733-019f-4628-83a4-d20b17ce6a6a"
+      }
     }
   }
 }
