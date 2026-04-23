@@ -5,6 +5,7 @@ import { useColorScheme } from "react-native";
 import { Colors } from "@/constants/theme";
 import { Icon, Label } from "expo-router";
 import { useI18n } from "@/i18n";
+import { isLiquidGlassAvailable } from "expo-glass-effect";
 
 export default function AppTabs() {
   const scheme = useColorScheme();
@@ -35,6 +36,12 @@ export default function AppTabs() {
       <NativeTabs.Trigger name="explore">
         <Label>{t("tabs.explore")}</Label>
         <Icon sf={"safari"} />
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger
+        name="addWorkout"
+        role={isLiquidGlassAvailable() ? "search" : undefined}
+      >
+        <Icon sf={"plus.circle"} />
       </NativeTabs.Trigger>
     </NativeTabs>
   );
