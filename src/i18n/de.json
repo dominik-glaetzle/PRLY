@@ -62,7 +62,8 @@
   "workouts": {
     "title": "Workouts",
     "subtitle": "Alle Sessions im Überblick.",
-    "empty": "Noch keine Workouts. Starte dein erstes Training.",
+    "emptyTitle": "Noch keine Workouts",
+    "empty": "Starte deine erste Session und tracke deinen Fortschritt.",
     "newWorkout": "Neues Workout",
     "viewExercises": "Übungen ansehen",
     "workoutMeta": "{{date}} · {{minutes}} min"
@@ -186,6 +187,14 @@
   },
   "workout": {
     "defaultName": "Workout {{date}}",
+    "autoNameMore": "weitere",
+    "editDetails": "Workout-Details",
+    "autoNameActive": "Auto-Name aktiv — wird mit deinen Übungen aktualisiert.",
+    "save": "Speichern",
+    "autoName": "Auto-Name",
+    "saveExercise": "Änderungen speichern",
+    "suggestions": "Vorschläge",
+    "suggestionMeta": "{{count}}x · zuletzt {{date}}",
     "trainingVolume": "Trainingsvolumen",
     "exercises": "Übungen",
     "entries_one": "{{count}} Eintrag",
@@ -197,16 +206,27 @@
     "deleteWorkout": "Workout löschen",
     "notFound": "Workout nicht gefunden.",
     "placeholders": {
+      "name": "Workout-Name",
+      "duration": "Dauer (min)",
       "exerciseName": "z.B. Bench Press",
       "note": "Hinweis (optional)",
-      "sets": "Sets (optional)",
+      "sets": "Sets",
       "reps": "Reps",
       "weight": "kg"
     },
     "validation": {
-      "reps": "Bitte gültige Werte für Reps eingeben.",
-      "sets": "Bitte gültige Werte für Sets eingeben.",
-      "weight": "Bitte gültige Werte für Gewicht eingeben."
+      "name": "Bitte gib dem Workout einen Namen.",
+      "duration": "Bitte eine gültige Dauer in ganzen Minuten eingeben.",
+      "exerciseName": "Bitte gib einen Übungsnamen ein.",
+      "reps": "Reps müssen eine positive ganze Zahl sein.",
+      "sets": "Sets müssen eine positive ganze Zahl sein.",
+      "weight": "Gewicht muss 0 oder mehr sein."
+    },
+    "deleteExerciseAlert": {
+      "title": "Übung löschen?",
+      "message": "Diese Übung wird aus dem Workout entfernt.",
+      "cancel": "Abbrechen",
+      "confirm": "Löschen"
     },
     "deleteAlert": {
       "title": "Workout löschen?",

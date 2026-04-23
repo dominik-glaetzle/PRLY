@@ -4,6 +4,10 @@
     "password": "Password",
     "login": "Login",
     "register": "Register",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
     "emailPlaceholder": "you@example.com",
     "hiddenPassword": "••••••••",
     "minutesShort": "min",
@@ -62,7 +66,8 @@
   "workouts": {
     "title": "Workouts",
     "subtitle": "All sessions at a glance.",
-    "empty": "No workouts yet. Start your first training session.",
+    "emptyTitle": "No workouts yet",
+    "empty": "Start your first training session and track your progress.",
     "newWorkout": "New workout",
     "viewExercises": "View exercises",
     "workoutMeta": "{{date}} · {{minutes}} min"
@@ -186,6 +191,14 @@
   },
   "workout": {
     "defaultName": "Workout {{date}}",
+    "autoNameMore": "more",
+    "editDetails": "Workout details",
+    "autoNameActive": "Auto-name is active — updates as you add exercises.",
+    "save": "Save",
+    "autoName": "Auto name",
+    "saveExercise": "Save changes",
+    "suggestions": "Suggestions",
+    "suggestionMeta": "{{count}}x · last {{date}}",
     "trainingVolume": "Training volume",
     "exercises": "Exercises",
     "entries_one": "{{count}} entry",
@@ -197,16 +210,27 @@
     "deleteWorkout": "Delete workout",
     "notFound": "Workout not found.",
     "placeholders": {
+      "name": "Workout name",
+      "duration": "Duration (min)",
       "exerciseName": "e.g. Bench Press",
       "note": "Note (optional)",
-      "sets": "Sets (optional)",
+      "sets": "Sets",
       "reps": "Reps",
       "weight": "kg"
     },
     "validation": {
-      "reps": "Please enter valid values for reps.",
-      "sets": "Please enter valid values for sets.",
-      "weight": "Please enter a valid value for weight."
+      "name": "Please enter a workout name.",
+      "duration": "Please enter a valid duration in whole minutes.",
+      "exerciseName": "Please enter an exercise name.",
+      "reps": "Reps must be a positive whole number.",
+      "sets": "Sets must be a positive whole number.",
+      "weight": "Weight must be 0 or greater."
+    },
+    "deleteExerciseAlert": {
+      "title": "Delete exercise?",
+      "message": "This exercise will be removed from the workout.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
     },
     "deleteAlert": {
       "title": "Delete workout?",
